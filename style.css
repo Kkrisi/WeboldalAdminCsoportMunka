@@ -1,0 +1,69 @@
+
+.polocim {
+	background-color: #f7f7f4;
+	font-size: 150%;
+	margin: 0px 10px;
+	padding: 10px 15px;
+}
+.kosar {
+	border-radius: 0;
+	margin-right: 10px;
+}
+.polokep {
+	margin: 15px 20px 5px 20px;
+}
+.polo img {
+	height: 54%;
+	width: 90%;
+}
+.poloszoveg {
+	margin: 0px 20px 0px 20px;
+}
+.ardiv {
+	background-color: #f7f7f4;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.tartalom {
+	padding: 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.ar {
+	padding-left: 20px;
+}
+.sorszam p {
+	padding: 8px 10px 0px 12px;
+}
+.sorszam hr {
+	margin: -4px;
+}
+footer {
+	background-color: #f7f7f4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

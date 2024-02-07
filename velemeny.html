@@ -87,27 +87,48 @@
 
             <div class="col-md-7 tartalom">
 
-              <div class="container mt-3">
-                <h2>Bejelentkezés</h2>
-                <form">
-                  <div class="mb-3 mt-3">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" placeholder="valaki@email.com" name="email">
-                  </div>
-                  <div class="mb-3">
-                    <label for="pwd">Jelszó:</label>
-                    <input type="password" class="form-control" id="pwd" placeholder="alma123" name="pswd">
-                  </div>
+                <div class="container mt-3 border rounded-3 p-3">
+                    <h2>Véleményírás</h2>
+                    <p>Kérem őszintén töltsék ki a kérdőívet.</p>
+
+                    
+                    <br>
+                    <p>1. Vásárolt már nálunk?</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Igen
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Nem
+                        </label>
+                      </div>
 
 
-                  <div class="form-check mb-3">
-                    <label class="form-check-label">
-                      <input class="form-check-input" type="checkbox" name="remember"> Emlékezz rám
-                    </label>
+                    <br>
+                    <p>2. Mennyire elégedett a termékeinkkel?</p>
+                      <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Válasszon
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Kicsit</a></li>
+                          <li><a class="dropdown-item" href="#">Nagyon</a></li>
+                        </ul>
+                      </div>
+
+
+                    <form action="/action_page.php">
+                      <div class="mb-3 mt-3">
+                        <label for="comment">Egyéb gondolat:</label>
+                        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Küldés</button>
+                    </form>
                   </div>
-                  <button type="submit" class="btn btn-primary">Küldés</button>
-                </form>
-              </div>
 
               
 
